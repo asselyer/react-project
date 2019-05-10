@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import {Link, withRouter} from 'react-router-dom'
+import { HashLink} from 'react-router-hash-link';
+import '../App.css';
+
 
 class Navbar extends Component{
     logOut(e){
@@ -57,6 +60,11 @@ class Navbar extends Component{
                         <li className="nav-item">
                             <Link to="/order" className="nav-link">
                                 Order
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/about" className="nav-link">
+                                About Us
                             </Link>
                         </li>
                     </ul>

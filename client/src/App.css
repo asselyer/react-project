@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.container .jumbotron{
+  padding-top:0; 
+}
 
 .App-link {
   color: #61dafb;
@@ -21,7 +23,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+h5{
+  display: inline-block;
+}
 .form-poisk{
   margin: 0 auto;
   display: table;

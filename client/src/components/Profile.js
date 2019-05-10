@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import jwt_decode from 'jwt-decode'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
+import Footer from './Footer'
+
 
 class Profile extends Component{
     constructor(){
@@ -42,7 +46,12 @@ class Profile extends Component{
                             </tr>
                         </tbody>
                     </table>
+
                 </div> 
+                <AddTodo />
+                    <VisibleTodoList /> 
+                    <Footer />
+      
             </div>
         )
     }
